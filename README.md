@@ -109,7 +109,7 @@ If the original ```
  a b c d e f g h i j k l m n o p q r s t u v w x y z
 ``` 
 Then a shift by 3 should be
-```
+``` ```
  d e f g h i j k l m n o p q r s t u v w x y z a b c
 ```
 The user should be able to choose the amount they shift by.
@@ -130,19 +130,7 @@ reverse("Radar") ➞ "RADAr"
 
 Note: punctuation is not checked 
 
-## The Reverser!
 
-The Reverser! (second super easy second challenge)
-The "Reverser" takes a string as input and returns that string in reverse order, with the opposite case.
-
-Examples
-reverse("Hello World") ➞ "DLROw OLLEh"
-
-reverse("ReVeRsE") ➞ "eSrEvEr"
-
-reverse("Radar") ➞ "RADAr"
-
-Note: punctuation is not checked 
 
 ## FIZZBUZZ
 Create a function that takes a number as an argument and returns "Fizz", "Buzz" or "FizzBuzz".
