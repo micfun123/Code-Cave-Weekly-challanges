@@ -17,7 +17,7 @@ char_to_dots = {
 #get input from user
 message = input("Enter a message: ")
 
-def morse_encode(message):
+def morse(message):
     message = message.upper()
     message = list(message)
     for i in range(len(message)):
@@ -29,4 +29,4 @@ def morse_encode(message):
     message = ' '.join(message)
     return message
 
-print(morse_encode(message))
+print(morse(message))
