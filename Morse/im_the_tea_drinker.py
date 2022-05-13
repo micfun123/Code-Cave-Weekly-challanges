@@ -1,5 +1,3 @@
-from dataclasses import replace
-import string
 
 char_to_dots = {
   'A': '.-', 'B': '-...', 'C': '-.-.', 'D': '-..', 'E': '.', 'F': '..-.',
