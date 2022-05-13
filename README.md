@@ -118,7 +118,7 @@ Challenge:
 keep the punctuation in place @Pings 
 
 
-## The Reverser! (second super easy second challenge)
+## Task 5 The Reverser! (second super easy second challenge)
 The "Reverser" takes a string as input and returns that string in reverse order, with the opposite case.
 
 Examples
@@ -132,7 +132,7 @@ Note: punctuation is not checked
 
 
 
-## FIZZBUZZ
+## Task 6 FIZZBUZZ
 Create a function that takes a number as an argument and returns "Fizz", "Buzz" or "FizzBuzz".
 
     If the number is a multiple of 3 the output should be "Fizz".
@@ -152,3 +152,26 @@ fizz_buzz(15) ➞ "FizzBuzz"
 fizz_buzz(4) ➞ "4"
 
 ```
+
+## Task 7 Morse 
+Create a function that takes a string as an argument and returns the Morse code equivalent.
+
+Examples
+encode_morse("EDABBIT CHALLENGE") ➞ ". -.. .- -... -... .. -   -.-. .... .- .-.. .-.. . -. --. ."
+
+encode_morse("HELP ME !") ➞ ".... . .-.. .--.   -- .   -.-.--"
+Help if needed
+This dictionary can be used for coding:
+
+char_to_dots = {
+  'A': '.-', 'B': '-...', 'C': '-.-.', 'D': '-..', 'E': '.', 'F': '..-.',
+  'G': '--.', 'H': '....', 'I': '..', 'J': '.---', 'K': '-.-', 'L': '.-..',
+  'M': '--', 'N': '-.', 'O': '---', 'P': '.--.', 'Q': '--.-', 'R': '.-.',
+  'S': '...', 'T': '-', 'U': '..-', 'V': '...-', 'W': '.--', 'X': '-..-',
+  'Y': '-.--', 'Z': '--..', ' ': ' ', '0': '-----',
+  '1': '.----', '2': '..---', '3': '...--', '4': '....-', '5': '.....',
+  '6': '-....', '7': '--...', '8': '---..', '9': '----.',
+  '&': '.-...', "'": '.----.', '@': '.--.-.', ')': '-.--.-', '(': '-.--.',
+  ':': '---...', ',': '--..--', '=': '-...-', '!': '-.-.--', '.': '.-.-.-',
+  '-': '-....-', '+': '.-.-.', '"': '.-..-.', '?': '..--..', '/': '-..-.'
+}
