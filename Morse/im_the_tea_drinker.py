@@ -9,7 +9,7 @@ char_to_dots = {
   '6': '-....', '7': '--...', '8': '---..', '9': '----.',
   '&': '.-...', "'": '.----.', '@': '.--.-.', ')': '-.--.-', '(': '-.--.',
   ':': '---...', ',': '--..--', '=': '-...-', '!': '-.-.--', '.': '.-.-.-',
-  '-': '-....-', '+': '.-.-.', '"': '.-..-.', '?': '..--..', '/': '-..-.'
+  '-': '-....-', '+': '.-.-.', '"': '.-..-.', '?': '..--..', '/': '-..-.', " ": " / "
 }
 
 #get input from user
@@ -18,11 +18,10 @@ message = input("Enter a message: ")
 def morse(message):
     message = message.upper()
     message = list(message)
+    print(message)
     for i in range(len(message)):
         if message[i] in char_to_dots:
-          message[i] = char_to_dots[message[i]]
-        else:
-          message[i] = ' '          
+          message[i] = char_to_dots[message[i]]          
            
     message = ' '.join(message)
     return message
