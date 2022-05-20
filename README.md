@@ -190,7 +190,9 @@ Notes
 Each byte must be seperated by a space.
 All alpha hex characters must be lowercase.
 
-## task 9 Karaca's Encryption Algorithm
+
+
+## Task 9 Karaca's Encryption Algorithm
 The Karaca's Encryption Algorithm
 Make a function that encrypts a given input with these steps:
 
