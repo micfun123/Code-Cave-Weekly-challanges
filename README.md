@@ -208,7 +208,7 @@ i => 2
 o => 2
 u => 3
 ```
-# "1lpp0"
+```"1lpp0"```
 Step 3: Add "aca" to the end of the word: "1lpp0aca"
 
 Output: "1lpp0aca"
