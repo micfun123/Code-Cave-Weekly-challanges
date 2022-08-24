@@ -278,7 +278,7 @@ Notes
 
 If you are given an empty string as input, you must also return an empty string. Otherwise, the input will always be a valid binary string.
 
-#task 11.5
+## task 11.5
 Interview question
 
 This problem was asked by Microsoft.
@@ -289,7 +289,7 @@ For example, given `[100, 4, 200, 1, 3, 2],` the longest consecutive element seq
 
 Your algorithm should run in` O(n)` complexity.
 
-##Task 12.2 harder The Most Overlapped Block of the Grid
+## Task 12.2 harder The Most Overlapped Block of the Grid
 
 Create a function that takes two arguments as input:
 
@@ -335,7 +335,7 @@ Notes
     `most_overlapped_block(1, [(10, 10, 1), (10, 10, 1)])` returns `0`.
 
 
-Task 12.1 easy toCamelCase() and toSnakeCase()
+## Task 12.1 easy toCamelCase() and toSnakeCase()
 
 Create two functions toCamelCase() and toSnakeCase() that each take a single string and convert it into either camelCase or snake_case. 
 Examples```
