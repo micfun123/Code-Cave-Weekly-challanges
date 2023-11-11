@@ -176,7 +176,7 @@ char_to_dots = {
   '-': '-....-', '+': '.-.-.', '"': '.-..-.', '?': '..--..', '/': '-..-.'
 }
 
-## Task 8  Convert to Hex
+## Task 8 Convert to Hex
 Convert to Hex
 Create a function that takes a string's characters as ASCII and returns each character's hexadecimal value as a string.
 
@@ -225,7 +225,7 @@ Notes
 All inputs are strings, no uppercases and all output must be strings.
 
 
-## Task 10
+## Task 
 
 **Is This a Haiku?**
 
