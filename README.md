@@ -1,3 +1,6 @@
+THIS REPO IS NO LONGER USED PLEASE CHECK https://github.com/CodeCaveServer/Code-Cave-weekly-challenges
+
+
 Twice a week, a challenge is posted on the discord server. This Github repo is to keep track of them.
 
 In each challenge folder, please upload the file with your discord username as the file name. There will be a new folder made for each challenge.
